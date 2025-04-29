@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header */
+
+.logo {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    padding: 20px 10px;
+    color: black;
+
+}
+
+.logo a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: rgb(98, 98, 255);
+}
+
+.logo span {
+    margin: 5px;
+    padding: 6px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(165, 165, 165), rgb(219, 219, 219), white);
+    font-size: 30px;
+}
+
+.logo_motors_property {}
+
+.location_input_buttons {
+    /* padding: 10px 0; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+.search_bar{
+    padding: 10px;
+    width: 700px;
+    height: 45px;
+
+}
+
+.location_select{
+    width: 250px;
+}
+
+/* Main */
+
+/* Cards_Section */
+.cards_section {}
+
+.cards_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards_heading a {
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: start;
+}
+
+.categories {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.category {
+    text-align: center;
+    width: 100px;
+}

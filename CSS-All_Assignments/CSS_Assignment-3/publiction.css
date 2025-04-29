@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "apercureg";
+    src: url("./fonts/apercu_regular_pro.otf");
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("./fonts/apercu_regular_pro.otf");
+}
+
+@font-face {
+    font-family: "futurak";
+    src: url("./fonts/futurak.ttf");
+}
+
+@font-face {
+    font-family: "butlerReg";
+    src: url("./fonts/Butler_Regular.otf");
+}
+
+@font-face {
+    font-family: "InterSBd";
+    src: url("./fonts/Inter_18pt-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    color: #ffffff;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: center; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 8px;
+    font-family: "apercureg";
+
+}
+
+.main_logo {
+    margin: 10px;
+}
+
+.navbar_items {
+    display: inline;
+}
+
+.navbar_items>a {
+    text-decoration: none;
+    /* color: #ffffff; */
+    /* margin: 20px; */
+    font-family: "apercureg";
+}
+
+.navbar_items button {
+    border-radius: 27px;
+    padding: 13px;
+    color: white;
+    margin: 5px;
+    background-color: black;
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.navbar_items button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px 7px;
+    margin-left: 10px;
+
+}
+
+.online_btn {
+    background-color: red !important;
+    padding: 10px 15px !important;
+    border: none !important;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+.container hr {
+    border: 0.1px solid rgb(59, 59, 59);
+}
+
+
+
+.books {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+
+}
+
+.books div {
+    border: 1px solid rgb(100, 100, 100);
+    margin: 10px;
+    padding: 50px 0px;
+}
+
+.books img {
+    width: 500px;
+}
+
+/* .books img:hover {
+    transition: 2s;
+    width: 10%;
+} */
+
+
+/* branches */
+
+.branches {
+    padding: 50px 100px;
+}
+
+.branches h2 {
+    font-family: "butlerReg";
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+
+.branches div {
+    margin-bottom: 20px;
+}
+
+.branches h5 {
+    font-family: "InterSBd";
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.branches p {
+    font-family: "InterSBd";
+    font-size: small;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.branches a {
+    text-decoration: none;
+    font-family: "InterSBd";
+    font-size: small;
+    color: gray;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 50px;
+    background-color: rgb(15, 15, 15);
+    font-family: "apercureg";
+    color: gray;
+    font-size: 20px;
+}
+
+.footer .first {
+    width: 32%;
+}
+
+.footer .first p {
+    margin: 30px 0px;
+}
+
+.footer .first_a {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .second {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 23%;
+}
+
+.footer .second a {
+    margin: 0px 0px 15px 0px;
+}
+
+.footer .third {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 23%;
+}
+
+.footer .third a {
+    margin: 0px 0px 15px 0px;
+}
+
+/* .footer .third b {
+    margin: 10px 0px 10px 0px;
+} */
+
+.footer .forth {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 20%;
+}
+
+.sm_icons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sm_icons span {
+    background-color: rgb(252, 26, 26);
+    padding: 15px;
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.sm_icons span a {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.sm_icons i {
+    color: #ffffff;
+}
+
+.footer h4 {
+    font-family: "butlerReg";
+    font-size: larger;
+    color: white;
+}
+
+.third_heading {
+    color: white;
+    font-family: "InterSBd";
+    /* margin-bottom: 20px; */
+}
+
+.footer p {
+    margin: 5px 0px;
+}
+
+.footer a {
+    display: block;
+    /* margin: 0px 0px 5px 0px ; */
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+
+}
+
+footer {
+    font-family: "InterSBd";
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}

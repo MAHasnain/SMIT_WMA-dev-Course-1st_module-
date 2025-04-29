@@ -1,0 +1,986 @@
+@font-face {
+    font-family: "apercureg";
+    src: url("./fonts/apercu_regular_pro.otf");
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("./fonts/apercu_regular_pro.otf");
+}
+
+@font-face {
+    font-family: "futurak";
+    src: url("./fonts/futurak.ttf");
+}
+
+@font-face {
+    font-family: "butlerReg";
+    src: url("./fonts/Butler_Regular.otf");
+}
+
+@font-face {
+    font-family: "InterSBd";
+    src: url("./fonts/Inter_18pt-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    color: #ffffff;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: center; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 8px;
+    font-family: "apercureg";
+
+}
+
+.main_logo {
+    margin: 10px;
+}
+
+.navbar_items {
+    display: inline;
+}
+
+.navbar_items>a {
+    text-decoration: none;
+    /* color: #ffffff; */
+    /* margin: 20px; */
+    font-family: "apercureg";
+}
+
+.navbar_items button {
+    border-radius: 27px;
+    padding: 13px;
+    color: white;
+    margin: 5px;
+    background-color: black;
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.navbar_items button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px 7px;
+    margin-left: 10px;
+
+}
+
+.online_btn {
+    background-color: red !important;
+    padding: 10px 15px !important;
+    border: none !important;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+
+/* Introduction */
+
+.introduction {
+    margin-top: 50px;
+}
+
+.introduction h1 {
+    font-family: "butlerReg";
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-family: "apercureg";
+    color: gray;
+    margin: 10px;
+}
+
+.introduction div {
+    margin: 100px;
+}
+
+.container hr {
+    border: 0.1px solid rgb(59, 59, 59);
+}
+
+.restaurant {
+    margin: 100px;
+}
+
+.restaurant h3 {
+    font-family: "InterSBd";
+    font-size: 30px;
+}
+
+.restaurant_p {
+    font-family: "apercureg";
+    color: gray;
+    margin: 10px;
+}
+
+/* simple_Restaurant */
+
+.simple_restaurant {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.simple_restaurant div img {
+    width: 550px;
+    margin-left: 40px;
+}
+
+.heading {
+    letter-spacing: 7px;
+    color: red;
+    font-size: larger;
+    /* font-weight: 200; */
+    font-family: "apercureg";
+    margin-bottom: 10px;
+}
+
+.address_p {
+    font-family: "apercureg";
+    color: gray;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.tel {
+    font-family: "apercureg";
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+}
+
+h4 {
+    font-family: "apercureg";
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 35px;
+}
+
+/* village_Restaurant */
+
+.village_restaurant {
+    display: flex;
+}
+
+.village_restaurant img {
+    width: 550px;
+    margin-right: 40px;
+}
+
+
+
+
+
+.restaurantsFranchises {
+    padding: 0px 100px;
+}
+
+.restaurantsFranchises_h2 {
+    font-family: "futurak";
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.restaurantsFranchises_p {
+    font-family: "InterSBd";
+    font-size: xx-large;
+    padding-bottom: 60px;
+}
+
+/* ISLAMABAD_address */
+.ISLAMABAD_address {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.ISLAMABAD_address div img {
+    width: 550px;
+    height: 250px;
+}
+
+.address_p {
+    font-family: "apercureg";
+    color: gray;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+h4 {
+    font-family: "apercureg";
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 35px;
+}
+
+
+
+/* Bahawalpur_address */
+.Bahawalpur_address {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.Bahawalpur_address div img {
+    width: 550px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+/* Faisalabad_address */
+.Faisalabad_address {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.Faisalabad_address div img {
+    padding-right: 40px;
+    width: 600px;
+    height: 250px;
+}
+
+
+.SaltnPepper_Express {}
+
+.SaltnPepper_Express .restaurantsFranchises_p-2 {
+    font-family: "apercureg";
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.SaltnPepper_Express .restaurantsFranchises_p {
+    font-family: "InterSBd";
+    margin-bottom: -30px !important;
+}
+
+.express {
+    padding: 50px 100px;
+    display: flex;
+}
+
+.express img {
+    width: 550px;
+    margin-right: 30px;
+}
+
+
+
+/* ExpressFranchises */
+
+.expressFranchises {
+    /* padding: 50px; */
+}
+
+.expressFranchises h2 {
+    font-family: "futurak";
+    font-size: xx-large;
+}
+
+.expressFranchises h3 {
+    font-family: "InterSBd";
+    font-size: xx-large;
+}
+
+.all-branches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.SARGODHA {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.SARGODHA img {
+    margin: 13px;
+}
+
+
+.SARGODHA .btn-get-direction {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.SARGODHA button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.SARGODHA h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.SARGODHA h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.SARGODHA .ef_address_p {
+    word-wrap: normal;
+    margin-bottom: 30px !important;
+}
+
+.ef_heading {
+    letter-spacing: 7px;
+    font-size: small;
+    color: red;
+    /* font-weight: 200; */
+    font-family: "apercureg";
+    margin-bottom: 10px;
+}
+
+.ef_address_p {
+    font-family: "apercureg";
+    color: gray;
+    margin-bottom: 10px;
+    font-size: medium;
+    word-wrap: break-word;
+}
+
+.ef_tel {
+    font-family: "apercureg";
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+}
+
+.JHELUM {
+    /* padding: 5px; */
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.JHELUM img {
+    margin: 13px;
+}
+
+.JHELUM .btn-get-direction {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.JHELUM button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.JHELUM h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.JHELUM h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.FAISAL-TOWN {
+    width: 376px;
+    padding-bottom: 40px;
+    height: 534px;
+}
+
+.FAISAL-TOWN img {
+    margin: 13px;
+}
+
+.FAISAL-TOWN .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.FAISAL-TOWN button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.FAISAL-TOWN h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.FAISAL-TOWN h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.DHA {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+
+}
+
+.DHA img {
+    margin: 13px;
+}
+
+.DHA .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.DHA button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.DHA h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.DHA h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.BAHRIA_TOWN {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.BAHRIA_TOWN img {
+    margin: 13px;
+}
+
+.BAHRIA_TOWN .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.BAHRIA_TOWN button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.BAHRIA_TOWN h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.BAHRIA_TOWN h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.GUJAR_KHAN {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+
+}
+
+.GUJAR_KHAN img {
+    margin: 13px;
+}
+
+.GUJAR_KHAN .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.GUJAR_KHAN button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.GUJAR_KHAN h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.GUJAR_KHAN h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.LAHORE {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.LAHORE img {
+    margin: 13px;
+    width: 350px;
+    height: 250px
+}
+
+.LAHORE .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.LAHORE button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.LAHORE h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.LAHORE h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+
+.GUJRAT {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.GUJRAT img {
+    margin: 13px;
+    width: 350px;
+    height: 250px
+}
+
+.GUJRAT .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.GUJRAT button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.GUJRAT h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.GUJRAT h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.SAHIWAL {
+    /* padding: 5px; */
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.SAHIWAL img {
+    margin: 13px;
+    width: 350px;
+    height: 250px;
+}
+
+.SAHIWAL .btn-get-direction {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.SAHIWAL button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+;
+
+.SAHIWAL h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.SAHIWAL h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/* villageFranchise */
+
+.villageFranchise {
+    padding: 50px 100px;
+}
+
+.villageFranchise h2 {
+    font-family: "futurak";
+    font-size: xx-large;
+}
+
+.villageFranchise h3 {
+    font-family: "InterSBd";
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.img_txt {
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+}
+
+.img_txt img {
+    width: 500px;
+    margin-right: 20px;
+}
+
+.txt {
+    /* text-align: start; */
+}
+
+.txt .heading {
+    letter-spacing: normal;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 50px;
+    background-color: rgb(15, 15, 15);
+    font-family: "apercureg";
+    color: gray;
+    font-size: 20px;
+}
+
+.footer .first {
+    width: 32%;
+}
+
+.footer .first p {
+    margin: 30px 0px;
+}
+
+.footer .first_a {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .second {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 23%;
+}
+
+.footer .second a {
+    margin: 0px 0px 15px 0px;
+}
+
+.footer .third {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 23%;
+}
+
+.footer .third a {
+    margin: 0px 0px 15px 0px;
+}
+
+/* .footer .third b {
+    margin: 10px 0px 10px 0px;
+} */
+
+.footer .forth {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 20%;
+}
+
+.sm_icons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sm_icons span {
+    background-color: rgb(252, 26, 26);
+    padding: 15px;
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.sm_icons span a {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.sm_icons i {
+    color: #ffffff;
+}
+
+.footer h4 {
+    font-family: "butlerReg";
+    font-size: larger;
+    color: white;
+}
+
+.third_heading {
+    color: white;
+    font-family: "InterSBd";
+    /* margin-bottom: 20px; */
+
+}
+
+.footer p {
+    margin: 5px 0px;
+}
+
+.footer a {
+    display: block;
+    /* margin: 0px 0px 5px 0px ; */
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+
+}
+
+footer {
+    font-family: "InterSBd";
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+
+}

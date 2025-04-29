@@ -1,0 +1,1132 @@
+@font-face {
+    font-family: "apercureg";
+    src: url("./fonts/apercu_regular_pro.otf");
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("./fonts/apercu_regular_pro.otf");
+}
+
+@font-face {
+    font-family: "futurak";
+    src: url("./fonts/futurak.ttf");
+}
+
+@font-face {
+    font-family: "butlerReg";
+    src: url("./fonts/Butler_Regular.otf");
+}
+
+@font-face {
+    font-family: "InterSBd";
+    src: url("./fonts/Inter_18pt-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    color: #ffffff;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: center; */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 8px;
+    font-family: "apercureg";
+
+}
+
+.main_logo {
+    margin: 10px;
+}
+
+.navbar_items {
+    display: inline;
+}
+
+.navbar_items>a {
+    text-decoration: none;
+    /* color: #ffffff; */
+    /* margin: 20px; */
+    font-family: "apercureg";
+}
+
+.navbar_items button {
+    border-radius: 27px;
+    padding: 13px;
+    color: white;
+    margin: 5px;
+    background-color: black;
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.navbar_items button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px 7px;
+    margin-left: 10px;
+
+}
+
+.online_btn {
+    background-color: red !important;
+    padding: 10px 15px !important;
+    border: none !important;
+    text-align: center;
+}
+
+
+/* banner */
+
+.img {
+    width: 100vw;
+}
+
+.img img{
+    width: 100vw;
+}
+
+/* welcome */
+
+.welcome {
+    width: 100vw;
+    padding: 100px
+}
+
+h1 {
+    font-family: "apercureg";
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h1>b {
+    font-family: "futurak";
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.welcome_p {
+    font-family: "apercureg";
+    color: gray;
+    margin: 10px;
+    font-size: large;
+}
+
+/* Cards */
+
+.logo_cards button {
+    border-radius: 27px;
+    padding: 15px;
+    color: white;
+    margin: 20px;
+    background-color: black;
+    /* text-align: center; */
+    border: none;
+    border: 0.7px solid rgb(165, 164, 164);
+    cursor: pointer;
+    width: 160px;
+}
+
+.logo_cards {
+    /* background-color: white; */
+    display: inline;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo_cards div {
+    background-color: white;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+/* Restaurant Franchises  */
+
+.address {
+    color: gray;
+}
+
+.restaurantsFranchises {
+    background-color: rgb(17, 17, 17);
+    padding: 70px;
+    width: 100vw;
+}
+
+.restaurantsFranchises_p {
+    font-family: "apercureg";
+    color: gray;
+    margin: 10px;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+.restaurantsFranchises_h2 {
+    font-family: "futurak";
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.restaurantsFranchises_h3 {
+    font-family: "butlerReg";
+    font-size: 50px
+}
+
+/* ISLAMABAD_address */
+.ISLAMABAD_address {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.ISLAMABAD_address div img {
+    width: 600px;
+}
+
+
+.heading {
+    letter-spacing: 7px;
+    color: red;
+    font-size: larger;
+    /* font-weight: 200; */
+    font-family: "apercureg";
+    margin-bottom: 10px;
+}
+
+.address_p {
+    font-family: "apercureg";
+    color: gray;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.tel {
+    font-family: "apercureg";
+    text-decoration: none;
+    color: gray;
+
+    font-size: large;
+}
+
+.franchise1 button {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(17, 17, 17);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: large;
+}
+
+.franchise1 button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+
+}
+
+h4 {
+    font-family: "apercureg";
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 35px;
+}
+
+
+/* FAISALABAD_address */
+.FAISALABAD_address {
+    padding-left: 70px;
+    display: flex;
+    /* align-items: center; VERTICALLY CENTER ALIGN */
+    margin-bottom: 40px;
+}
+
+.FAISALABAD_address div img {
+    width: 600px;
+}
+
+.franchise2 {
+    text-align: start;
+    padding-left: 60px;
+}
+
+.franchise2 button {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(17, 17, 17);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: large;
+    width: 200px;
+    font-size: large;
+}
+
+.franchise2 button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+/* BAHAWALPUR_address */
+.BAHAWALPUR_address {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.BAHAWALPUR_address div img {
+    width: 600px;
+}
+
+.franchise3 button {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(17, 17, 17);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: large;
+}
+
+.franchise3 button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+/* ExpressFranchises */
+
+.expressFranchises {
+    padding: 50px;
+}
+
+.expressFranchises h2 {
+    font-family: "futurak";
+    font-size: 60px;
+}
+
+.expressFranchises h3 {
+    font-family: "butlerReg";
+    font-size: 60px;
+}
+
+.all-branches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.SARGODHA {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.SARGODHA img {
+    margin: 13px;
+}
+
+
+.SARGODHA .btn-get-direction {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.SARGODHA button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.SARGODHA h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.SARGODHA h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.SARGODHA .ef_address_p {
+    word-wrap: normal;
+    margin-bottom: 30px !important;
+}
+
+.ef_heading {
+    letter-spacing: 7px;
+    font-size: small;
+    color: red;
+    /* font-weight: 200; */
+    font-family: "apercureg";
+    margin-bottom: 10px;
+}
+
+.ef_address_p {
+    font-family: "apercureg";
+    color: gray;
+    margin-bottom: 10px;
+    font-size: medium;
+    word-wrap: break-word;
+}
+
+.ef_tel {
+    font-family: "apercureg";
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+}
+
+.JHELUM {
+    /* padding: 5px; */
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.JHELUM img {
+    margin: 13px;
+}
+
+.JHELUM .btn-get-direction {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.JHELUM button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.JHELUM h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.JHELUM h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.FAISAL-TOWN {
+    width: 376px;
+    padding-bottom: 40px;
+    height: 534px;
+}
+
+.FAISAL-TOWN img {
+    margin: 13px;
+}
+
+.FAISAL-TOWN .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.FAISAL-TOWN button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.FAISAL-TOWN h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.FAISAL-TOWN h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.DHA {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+
+}
+
+.DHA img {
+    margin: 13px;
+}
+
+.DHA .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.DHA button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.DHA h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.DHA h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.BAHRIA_TOWN {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.BAHRIA_TOWN img {
+    margin: 13px;
+}
+
+.BAHRIA_TOWN .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.BAHRIA_TOWN button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.BAHRIA_TOWN h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.BAHRIA_TOWN h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.GUJAR_KHAN {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+
+}
+
+.GUJAR_KHAN img {
+    margin: 13px;
+}
+
+.GUJAR_KHAN .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.GUJAR_KHAN button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.GUJAR_KHAN h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.GUJAR_KHAN h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.LAHORE {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.LAHORE img {
+    margin: 13px;
+    width: 350px;
+    height: 250px
+}
+
+.LAHORE .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.LAHORE button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.LAHORE h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.LAHORE h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+
+.GUJRAT {
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.GUJRAT img {
+    margin: 13px;
+    width: 350px;
+    height: 250px
+}
+
+.GUJRAT .btn-get-direction {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.GUJRAT button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+.GUJRAT h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.GUJRAT h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.SAHIWAL {
+    /* padding: 5px; */
+    width: 376px;
+    height: 534px;
+    padding-bottom: 40px;
+}
+
+.SAHIWAL img {
+    margin: 13px;
+    width: 350px;
+    height: 250px;
+}
+
+.SAHIWAL .btn-get-direction {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.SAHIWAL button i {
+    background-color: #ffffff;
+    color: red;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    rotate: -45deg;
+}
+
+;
+
+.SAHIWAL h4 {
+    font-family: "apercureg";
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.SAHIWAL h4>b {
+    font-family: "futurak";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+
+/* villageFranchise */
+
+.villageFranchise {
+    background-color: rgb(15, 15, 15);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.villageFranchise h2 {
+    font-family: "futurak";
+    font-size: 60px;
+}
+
+.villageFranchise h3 {
+    font-family: "butlerReg";
+    font-size: 60px;
+}
+
+.img_txt {
+    display: flex;
+    align-items: center;
+}
+
+.img img {
+    width: 95%;
+    padding-top: 30px;
+}
+
+.txt {
+    text-align: start;
+}
+
+.txt button {
+    text-align: center;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(48, 189, 48);
+    /* text-align: center; */
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+}
+
+.txt button:hover {
+    transition: 0.4s;
+    background-color: black;
+}
+
+.txt button i {
+    background-color: #ffffff;
+    color: rgb(48, 189, 48);
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.txt button i:hover {
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+
+
+/* expressFranchise coming soon */
+
+.expressFranchise {
+    padding-top: 60px;
+}
+
+.expressFranchise h3 {
+    font-family: "futurak";
+    font-size: 50px;
+}
+
+.expressFranchise h4 b {
+    font-family: "butlerReg";
+    font-size: 50px;
+}
+
+.all-cards {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* background-color: black; */
+}
+
+.card {
+    width: 375px;
+    height: 295px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 30px;
+    margin: 15px;
+    margin-bottom: 35px;
+}
+
+.opening_soon {
+    font-family: "apercu" !important;
+    letter-spacing: 5px;
+    font-size: small !important;
+    padding: 10px;
+    color: red;
+}
+
+.card p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.card h4 {
+    font-family: "InterSBd";
+}
+
+.card h4 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.card_txt {
+    padding: 10px;
+}
+
+/* socialFeed */
+
+.socialFeed {
+    padding: 30px;
+}
+
+.socialFeed h3 {
+    font-family: "butlerReg";
+    font-size: 35px;
+    margin: 30px;
+}
+
+.img_divs {
+    display: flex;
+    justify-content: center;
+    gap: 1.8%;
+
+}
+
+.img_divs div img {
+    width: 245px;
+    height: 245px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 50px;
+    background-color: rgb(15, 15, 15);
+    font-family: "apercureg";
+    color: gray;
+    font-size: 20px;
+}
+
+.footer .first {
+    width: 32%;
+}
+.footer .first p {
+    margin: 30px 0px;
+}
+.footer .first_a{
+    display: flex;
+    gap: 20px;
+}
+
+.footer .second {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 23%;
+}
+
+.footer .second a {
+    margin: 0px 0px 15px 0px;
+}
+
+.footer .third {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 23%;
+}
+
+.footer .third a {
+    margin: 0px 0px 15px 0px;
+}
+/* .footer .third b {
+    margin: 10px 0px 10px 0px;
+} */
+
+.footer .forth {
+
+    text-align: start;
+    padding: 0px 40px;
+    width: 20%;
+}
+
+.sm_icons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sm_icons span {
+    background-color: rgb(252, 26, 26);
+    padding: 15px;
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.sm_icons span a {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.sm_icons i {
+    color: #ffffff;
+}
+
+.footer h4 {
+    font-family: "butlerReg";
+    font-size: larger;
+    color: white;
+}
+
+.third_heading {
+    color: white;
+    font-family: "InterSBd";
+    /* margin-bottom: 20px; */
+    
+}
+
+.footer p {
+    margin: 5px 0px;
+}
+
+.footer a {
+    display: block;
+    /* margin: 0px 0px 5px 0px ; */
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+
+}
+
+footer {
+    font-family: "InterSBd";
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+
+}

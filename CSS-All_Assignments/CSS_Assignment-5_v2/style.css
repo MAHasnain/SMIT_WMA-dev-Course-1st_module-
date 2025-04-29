@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(107, 107, 107);
+
+}
+
+.login_search {
+    background-color: green;
+}
+
+header {
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0.25px 0.25px 4px 0.2px rgba(194, 194, 194, 1);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.navbar li {
+    list-style: none;
+    padding: 5px 5px;
+    box-shadow: 0.25px 0.25px 4px 0.2px rgba(194, 194, 194, 1);
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+
+.navbar2_buttons {
+    background-color: white;
+    box-shadow: 0.25px 0.25px 4px 0.2px rgba(194, 194, 194, 1);
+}
+
+.navbar2_buttons ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar2_buttons ul li {
+    list-style: none;
+    background-color: rgb(252, 227, 227);
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    padding: 20px 8px;
+    font-size: 13px;
+}
+
+li .fa-plus {
+    font-size: xx-large;
+}
+
+.navbar2_buttons li a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* .white_container {
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+}
+ */
+
+.cards_container_bg {
+    background-color: #cfc3c3;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 100px;
+    position: relative;
+}
+
+
+/* .cards {
+} */
+
+/* login_and_search */
+.login_and_search {
+    clip-path: polygon(24.4% 0%, 28.6% 7.5%, 28.3% 95.3%, 13.9% 95.5%, 12.2% 100%, 2.1% 100%, 2.5% 0%);
+    background-color: green;
+    width: 200px;
+    /* border: 1px solid black; */
+    color: white;
+    height: 150px;
+    position: fixed;
+    /* right: 50px; */
+    top: 200px;
+}
+
+.login_and_search .login {
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(41, 163, 41);
+}
+
+.login_and_search .login p {
+    font-size: 10px !important;
+}
+
+.login_and_search .search {
+    font-size: larger;
+    padding: 20px;
+    background-color: rgb(91, 91, 91);
+}
+
+.big_sec {
+    width: 75%;
+}
+
+.top_cards_sec {
+    display: flex;
+}
+
+.bigger_card {}
+
+.bigger_card .txt {
+    background-color: rgb(84, 185, 243);
+    width: 578px;
+}
+
+.card .txt {
+    background-color: violet;
+}
+
+.big_sec-bottom_cards {
+    width: 100%;
+    display: flex;
+}
+
+.vert_card {
+    display: flex;
+
+}
+
+.vert_card .txt {
+    background-color: blue;
+    width: 168px;
+}
+
+.vert_card img {
+    height: 150px;
+    width: 112px;
+}
+
+.featured_pokemon_cards {
+    display: flex;
+}
+
+
+
+
+
+.explore_button {
+    color: white;
+    background-color: black;
+}
+
+.Whats_New {
+    display: flex;
+}
+
+
+/* footer */
+
+footer {
+    padding: 30px 0 0 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* align-items: center; */
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    /* align-items: center; */
+    width: 50%;
+}
+
+.form_and_inputs {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.form_and_inputs .inputs {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.form_and_inputs .form {
+    padding: 10px;
+    width: 50%;
+}
+.form_and_inputs .form p {
+    font-size: larger;
+}
+
+.form_and_inputs .form {
+    width: 50%;
+}
+
+.form_and_inputs .email {
+    width: 90%;
+    padding: px;
+    height: 30px;
+    margin-bottom: 6px;
+
+}
+
+.form_and_inputs .country, .date {
+    border-radius: 3px;
+    height: 30px;
+
+    width: 44%;
+}
+
+.links {
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.links .security a, p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: small;
+}
+.links .security p {
+    font-size: x-small;
+}
+.links .company a {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.links .socials {
+    display: flex;
+}
+.inputs{
+    
+}
+.links .socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    width: 30px;
+    padding: 5px;
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 4px;
+    background-color: gray;
+}
+.form_and_inputs .form button {
+    background-color: gray;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 6px;
+    font-size: smaller;
+    font-weight: 700;
+    color: white;
+}

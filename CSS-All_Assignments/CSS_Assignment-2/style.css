@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "kanitSmBdI";
+    src: url("./fonts/Kanit-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "kanitBd";
+    src: url("./fonts/Kanit-Bold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(165, 214, 198);
+}
+
+td>a {
+    padding: 10px;
+}
+
+td>a:hover {
+    color: black;
+    font-family: "kanitBd";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(97, 133, 134);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    max-width: 35%;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.home-heading {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: larger;
+}
+
+.home-heading:hover {
+    font-family: "kanitBd"
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumi</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+      @font-face {
+        font-family: "kanitXbd";
+        src: url("./fonts/Kanit-ExtraBold.ttf");
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Caveat", sans-serif;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      .rumi-heading:hover {
+        color: rgb(87, 87, 87);
+        font-size: x-large;
+        font-family: "kanitXbd";
+      }
+
+      p {
+        font-size: x-large;
+      }
+      p:hover {
+        text-transform: uppercase;
+      }
+
+      .active_page {
+        color: brown;
+        font-weight: bolder;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <a href="./index.html">Poetry</a>
+      </h1>
+      <center>
+        <nav>
+          <table>
+            <tr class="navbar">
+              <td><a href="./index.html">Home</a></td>
+              <td></td>
+              <td><a href="./iqbal.html">Iqbal</a></td>
+              <td></td>
+              <td><a href="./bhittai.html">Bhittai</a></td>
+              <td></td>
+              <td><a class="active_page" href="./rumi.html">Rumi</a></td>
+              <td></td>
+              <td><a href="./yunusEmre.html">Yunus Emre</a></td>
+              <td></td>
+            </tr>
+          </table>
+        </nav>
+        <br />
+        <div>
+          <h3 class="rumi-heading">Jalauddin Rumi</h3>
+          <br />
+          <p>
+            "I choose to <b>love</b> you in silence... <br />
+            For in silence I find no rejection, I choose to love you in
+            loneliness... <br />For in loneliness no one owns you but me, I
+            choose to adore you from a distance... <br />For distance will
+            shield me from pain, I choose to kiss you in the wind...<br />
+            For the wind is gentler than my lips, I choose to hold you in my
+            dreams...<br />
+            For in my dreams, you have no end." <br />
+            <i>~~ Rumi ~~</i>
+          </p>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>

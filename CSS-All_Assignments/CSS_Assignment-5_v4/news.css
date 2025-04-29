@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+}
+
+/* HEADER */
+
+header {
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75); */
+}
+
+.navbar1 {
+    margin: autoٖ;
+    display: flex;
+    justify-content: start;
+}
+
+.navbar1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.navbar2 .nav-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 120px;
+    height: 100px;
+    font-size: small;
+    color: black;
+    /* padding: 5px 20px; */
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar2 .nav-item a {
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar2 .nav-item:hover {
+    color: #fff;
+}
+
+.navbar2 .material-symbols-outlined {
+    color: gray;
+}
+
+.home {
+    border-bottom: 3px gray solid;
+}
+
+.group_work {
+    border-bottom: 3px rgb(255, 25, 25) solid;
+}
+
+.gamepad {
+    border-bottom: 3px orangered solid;
+}
+
+.playing_cards {
+    border-bottom: 3px orange solid;
+}
+
+.play_circle {
+    border-bottom: 3px green solid;
+}
+
+.rewarded_ads {
+    border-bottom: 3px skyblue solid;
+}
+
+.newspaper {
+    background-color: blue !important;
+    border-bottom: 3px blue solid;
+}
+
+.newspaper .material-symbols-outlined {
+    color: white;
+}
+
+.newspaper p {
+    color: white;
+}
+
+.home:hover {
+    background-color: gray;
+    color: #fff;
+}
+
+.group_work:hover {
+    background-color: rgb(255, 25, 25);
+    color: #fff;
+}
+
+.gamepad:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+.playing_cards:hover {
+    background-color: orange;
+}
+
+.play_circle:hover {
+    background-color: green;
+}
+
+.rewarded_ads:hover {
+    background-color: skyblue;
+}
+
+.newspaper:hover {
+    background-color: blue;
+}
+
+/* login and search  */
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.login_and_search {
+    clip-path: polygon(24.4% 0%, 28.6% 7.5%, 28.3% 95.3%, 13.9% 95.5%, 12.2% 100%, 2.1% 100%, 2.5% 0%);
+    background-color: green;
+    width: 200px;
+    /* border: 1px solid black; */
+    color: white;
+    height: 150px;
+    /* right: 50px; */
+    top: 200px;
+    left: 125px;
+    position: fixed;
+}
+
+.login_and_search .login {
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(41, 163, 41);
+}
+
+.login_and_search .login p {
+    font-size: 10px !important;
+}
+
+.login_and_search .search {
+    font-size: larger;
+    padding: 20px;
+    background-color: rgb(91, 91, 91);
+}
+
+/* main 
+news
+*/
+
+.news_sec {
+    width: 65%;
+    margin: auto;
+    /* background-color: rgb(173, 173, 172); */
+}
+
+.Pokémon_News {
+    padding: 0 15px;
+}
+
+.Pokémon_News h2 {
+    font-size: 30px;
+    color: gray;
+    /* padding-right: 50px; */
+}
+
+.row .main_heading {
+    font-weight: 400;
+    color: gray;
+    padding: 20px 10px;
+}
+
+.top_news {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.txt {
+    padding: 0 10px;
+    width: 400px;
+}
+
+.blue_line hr {
+    height: 3px;
+    color: rgb(0, 0, 175);
+}
+
+.all_news {
+    
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.all_news_select {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.all_news_select select {
+    width: 300px;
+    color: #fff;
+    font-size: medium;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.news {
+    padding-top: 50px;
+}
+
+
+.load_more_btn {
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    left: 360px;
+    top: 1200px;
+    background-color: rgb(0, 167, 233);
+}
+
+.load_more_btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* footer */
+
+footer {
+    padding: 30px 0 0 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* align-items: center; */
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    /* align-items: center; */
+    width: 50%;
+}
+
+.form_and_inputs {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.form_and_inputs .inputs {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.form_and_inputs .form {
+    padding: 10px;
+    width: 50%;
+}
+
+.form_and_inputs .form p {
+    font-size: larger;
+}
+
+.form_and_inputs .form {
+    width: 50%;
+}
+
+.form_and_inputs .email {
+    width: 90%;
+    padding: px;
+    height: 30px;
+    margin-bottom: 6px;
+
+}
+
+.form_and_inputs .country, .date {
+    border-radius: 3px;
+    height: 30px;
+
+    width: 44%;
+}
+
+.links {
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.links .security a, p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: small;
+}
+
+.links .security p {
+    font-size: x-small;
+}
+
+.links .company a {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.links .socials {
+    display: flex;
+}
+
+.inputs {}
+
+.links .socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    width: 30px;
+    padding: 5px;
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 4px;
+    background-color: gray;
+}
+
+.form_and_inputs .form button {
+    background-color: gray;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 6px;
+    font-size: smaller;
+    font-weight: 700;
+    color: white;
+}

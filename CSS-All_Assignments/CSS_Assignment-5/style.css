@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login_search {
+    background-color: green;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0.25px 0.25px 4px 0.2px rgba(194, 194, 194, 1);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar li {
+    list-style: none;
+    padding: 5px 5px;
+    box-shadow: 0.25px 0.25px 4px 0.2px rgba(194, 194, 194, 1);
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+
+.navbar2_buttons {
+    background-color: white;
+    box-shadow: 0.25px 0.25px 4px 0.2px rgba(194, 194, 194, 1);
+}
+
+.navbar2_buttons ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar2_buttons ul li {
+    list-style: none;
+    background-color: rgb(252, 227, 227);
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    padding: 20px 8px;
+    font-size: 13px;
+}
+
+li .fa-plus {
+    font-size: xx-large;
+}
+
+.navbar2_buttons li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.white_container {
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+}
+
+/* .cards {
+} */
+.bg {
+    padding: 0px 250px;
+}
+
+.big_sec {
+    width: 75%;
+}
+
+.bigger_card {}
+
+.bigger_card .txt {
+    background-color: rgb(84, 185, 243);
+    width: 578px;
+}
+
+.card .txt {
+    background-color: violet;
+}
+
+.big_sec-bottom_cards {
+    width: 100%;
+    display: flex;
+}
+
+.vert_card {
+    display: flex;
+
+}
+
+.vert_card .txt {
+    background-color: blue;
+    width: 168px;
+}
+
+.vert_card img {
+    height: 150px;
+    width: 112px;
+}
+
+.featured_pokemon_cards {
+    display: flex;
+}
+
+
+
+
+
+.explore_button {
+    color: white;
+    background-color: black;
+}
+
+.Whats_New {
+    display: flex;
+}
