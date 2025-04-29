@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Details</title>
+    <style>
+      td {
+        padding: 10px;
+      }
+      .td1 {
+        background-color: lightgreen;
+      }
+      .td2 {
+        background-color: cadetblue;
+      }
+      div {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <table>
+        <tbody>
+          <tr style="background-color: lightgray">
+            <td class="td1">Step 1: Account</td>
+            <td class="td2">Step 2: Personal Details</td>
+            <td class="td3">Step 3: Your Review</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <fieldset>
+      <legend>Complete your Profile</legend>
+      <div>
+        <form action="https://formsubmit.co/muhatta427@gmail.com" method="POST">
+          <div>
+            <label for="firstName">Profile Picture: </label>
+          </div>
+          <input required name="firstName" type="file" id="firstName" />
+          <div>
+            <label for="fullName">Full Name: </label>
+          </div>
+          <input
+            placeholder="Enter your name"
+            name="fullName"
+            type="text"
+            id="fullName"
+          />
+          <div>
+            <label for="dob">Date of Birth: </label>
+          </div>
+          <input
+            placeholder="Enter your D.O.B"
+            name="dob"
+            type="date"
+            id="lastName"
+          />
+          <div>
+            <label for="phoneNumber">Phone Number: </label>
+          </div>
+          <input
+            placeholder="123-456-7890"
+            name="Phone"
+            type="tel"
+            id="phoneNumber"
+          />
+
+          <div><label for="links">Social Links</label></div>
+          <div>
+            <input
+              placeholder="https://github.com/yourName"
+              name="links"
+              type="url"
+              id="link1"
+            />
+          </div>
+          <div>
+            <input
+              placeholder="https://linkedIn.com/yourName"
+              name="links"
+              type="url"
+              id="link2"
+            />
+          </div>
+
+          <div>
+            <label for="country">Choose a Country: </label>
+            <div>
+              <select name="country" id="countries">
+                <option value="select">Select Country</option>
+                <option value="pk">Pakistan</option>
+                <option value="tr">Turkiye</option>
+                <option value="uae">UAE</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <input name="subscribe" type="checkbox" id="subscription" />
+            <label for="subscribe">Subscribe to Newsletter: </label>
+          </div>
+        </form>
+      </div>
+      <div>
+        <a href="./account_Dets.html"
+          ><img width="100px" src="./img/back.png" alt=""
+        /></a>
+        <a href="./your_Rev.html"
+          ><img width="100px" src="./img/next.png" alt=""
+        /></a>
+      </div>
+    </fieldset>
+  </body>
+</html>

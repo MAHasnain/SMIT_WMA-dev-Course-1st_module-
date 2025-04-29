@@ -1,0 +1,15 @@
+HTML Assignment # 01
+https://myresume-web-page.netlify.app/
+
+HTML Assignment # 02
+https://restaurant-menu-list-items.netlify.app/
+
+HTML Assignment # 03
+https://links-movie-app.netlify.app/
+
+HTML Assignment # 04
+https://livenews-web.netlify.app/
+
+
+HTML Assignment # 05
+https://astro-images-gallery.netlify.app/

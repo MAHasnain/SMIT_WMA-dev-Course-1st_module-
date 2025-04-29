@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td {
+        padding: 10px;
+      }
+      .td1 {
+        background-color: lightgreen;
+      }
+      .td2 {
+        background-color: lightgreen;
+      }
+      .td3 {
+        background-color: cadetblue;
+      }
+      div {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <table>
+        <tbody>
+          <tr style="background-color: lightgray">
+            <td class="td1">Step 1: Account</td>
+            <td class="td2">Step 2: Personal Details</td>
+            <td class="td3">Step 3: Your Review</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <fieldset>
+      <legend>Your Review:</legend>
+      <div>
+        <form action="https://formsubmit.co/muhatta427@gmail.com" method="post">
+          <div>
+            <label for="aboutUs">How did you hear about us?</label>
+          </div>
+          <select required name="aboutUs" id="aboutUs">
+            <option value="1">Select your option</option>
+            <option value="2">option 1</option>
+            <option value="3">option 2</option>
+            <option value="4">option 3</option>
+          </select>
+          <div>
+            <p>Would you visit again?</p>
+          </div>
+          <input name="yes" type="radio" id="yes" value="Yes" />
+          <label for="yes">Yes</label>
+          <input name="No" type="radio" id="no" value="No" />
+          <label for="no">No</label>
+          <input name="Maybe" type="radio" id="maybe" value="Maybe" />
+          <label for="maybe">Maybe</label>
+
+          <div><label for="Comments">Comments:</label></div>
+          <textarea
+            required
+            rows="5"
+            cols="20"
+            placeholder="Enter your Comments"
+            name="Comments"
+            id="comment"
+          ></textarea>
+
+          <div>
+            <label for="documents">Documents: </label>
+          </div>
+          <input type="file" name="documents" id="document" required />
+
+          <div>
+            <input type="checkbox" name="signme" id="signme" required />
+            <label for="signme">Sign me up for email updates </label>
+          </div>
+        </form>
+      </div>
+      <div>
+        <a href="./personal_Dets.html"
+          ><img width="100px" src="./img/back.png" alt=""
+        /></a>
+        <a href="./index.html"
+          ><img width="100px" src="./img/submit.png" alt=""
+        /></a>
+      </div>
+    </fieldset>
+  </body>
+</html>
