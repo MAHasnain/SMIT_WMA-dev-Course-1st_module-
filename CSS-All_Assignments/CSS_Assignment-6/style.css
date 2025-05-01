@@ -46,20 +46,80 @@ html, body {
     /* justify-content: center; */
 }
 
-.search_bar{
+.search_bar {}
+
+.search {
+    border-radius: 5px;
+    position: relative;
+    width: 720px;
+    height: 40px;
+    left: 40px;
     padding: 10px;
-    width: 700px;
-    height: 45px;
-
 }
 
-.location_select{
-    width: 250px;
+.fa-magnifying-glass {
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    background-color: black;
+    position: absolute;
 }
+
+.location_select {
+    /* width: 250px; */
+}
+
+.location {
+    width: 350px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+}
+
+.login_sell_button {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.login_sell_button a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.all_categories_and_banner {
+    padding: 0 0 30px 0;
+}
+
+.all_categories_and_banner span {
+    padding-right: 20px;
+}
+
+.all_catg {
+    font-weight: 700;
+}
+
+.all_categories {
+    padding: 30px 0 0 0;
+}
+
+.all_categories h4 {
+    font-weight: 700;
+}
+
+.categories a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
 
 /* Main */
 
 /* Cards_Section */
+
+
 .cards_section {}
 
 .cards_heading {
@@ -74,16 +134,90 @@ html, body {
 .cards {
     display: flex;
     justify-content: start;
+    gap: 10px;
+}
+
+.card {}
+
+.price {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    padding: 15px;
 }
 
 .categories {
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 48px;
 }
 
 .category {
     text-align: center;
     width: 100px;
 }
+
+footer {
+    border-top: 0.5px solid rgb(155, 155, 155);
+    margin: 20px 0 0 0;
+    background-color: rgb(231, 227, 227);
+    padding-bottom: 50px;
+}
+
+.footer_sec {
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    /* gap: 170px; */
+}
+
+.footer_sec .popular_categories, .trending_searches, .about, .olx {
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    width: 250px;
+}
+
+.footer_sec a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer_sec a:hover {
+    color: rgb(65, 65, 65);
+}
+
+.follow_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.follow_us .social_apps span {
+    /* margin: 5px; */
+
+    font-size: 13px;
+    border: .5px solid gray;
+    border-radius: 50px;
+    padding: 4px 8px;
+}
+
+.footer_bottom {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 20px 10% 0 0;
+}
+
+.footer_bottom .years {}
+
+.footer_bottom .free {}
+
+.social_apps {}
+
+.app_badges {}
