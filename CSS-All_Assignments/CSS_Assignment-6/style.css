@@ -21,6 +21,8 @@ html, body {
 }
 
 .logo a {
+    display: flex;
+    align-items: center;
     color: black;
     font-weight: 600;
     text-decoration: none;
@@ -30,7 +32,7 @@ html, body {
     color: rgb(98, 98, 255);
 }
 
-.logo span {
+.logo .directions_car, .apartment {
     margin: 5px;
     padding: 6px;
     border-radius: 50%;
@@ -88,6 +90,18 @@ html, body {
     text-decoration: none;
 }
 
+.sell_btn {
+    border-radius: 60px;
+    border: 5px solid black;
+    padding: 5px 15px;
+}
+
+.login_btn {
+    padding: 10px;
+}
+
+/* Top Banner section */
+
 .all_categories_and_banner {
     padding: 0 0 30px 0;
 }
@@ -139,6 +153,10 @@ html, body {
 
 .card {}
 
+.card_row {
+    margin-bottom: 30px;
+}
+
 .price {
     padding: 15px;
     display: flex;
@@ -147,6 +165,18 @@ html, body {
 
 .desc {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc .location {
+    font-size: medium;
+
+}
+
+.desc .time {
+    font-size: small;
+
 }
 
 .categories {
@@ -218,6 +248,8 @@ footer {
 
 .footer_bottom .free {}
 
-.social_apps {}
+.social_apps span {
+    cursor: pointer;
+}
 
 .app_badges {}
