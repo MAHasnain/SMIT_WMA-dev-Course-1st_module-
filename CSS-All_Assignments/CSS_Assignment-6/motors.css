@@ -9,6 +9,11 @@ html, body {
     width: 100%;
 }
 
+/* utility classes  */
+.flex {
+    display: flex;
+}
+
 /* Header */
 
 .logo {
@@ -46,25 +51,6 @@ html, body {
     /* padding: 10px 0; */
     display: flex;
     /* justify-content: center; */
-}
-
-.search_bar {}
-
-.search {
-    border-radius: 5px;
-    position: relative;
-    width: 720px;
-    height: 40px;
-    left: 40px;
-    padding: 10px;
-}
-
-.fa-magnifying-glass {
-    cursor: pointer;
-    color: white;
-    padding: 12px;
-    background-color: black;
-    position: absolute;
 }
 
 .location_select {
@@ -127,3 +113,5 @@ html, body {
     color: black;
     font-weight: 600;
 }
+
+/*  */
