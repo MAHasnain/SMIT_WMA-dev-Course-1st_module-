@@ -37,3 +37,22 @@ console.log(++num1);
 
 
 // Predecreament
+
+
+var num1 = 23.345;
+var roundedNumber = Math.round(num1);
+var floorNumber = Math.floor(num1);
+var ceilNumber = Math.ceil(num1);
+
+console.log(roundedNumber);
+console.log(floorNumber);
+console.log(ceilNumber);
+
+
+
+// Random
+var randomNum = Math.random();
+var res = Math.floor((randomNum * 80) + 21);
+
+console.log("res " + res);
+
