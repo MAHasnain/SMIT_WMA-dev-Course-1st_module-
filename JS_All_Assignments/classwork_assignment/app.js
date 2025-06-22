@@ -120,7 +120,7 @@ for (let i = 0; i < productNames.length; i++) {
 // 11. Ask the user to enter a temperature in Celsius and convert it to Fahrenheit using the formula:
 // `F = (C × 9/5) + 32`, and display the result with `alert()`.
 
-var userTemp = prompt("Enter the temperature.")
+var userTemp = +prompt("Enter the temperature.")
 var f_temp = (userTemp * 9 / 5) + 32;
 alert("Convert to F  " + f_temp);
 // ✅
