@@ -128,11 +128,11 @@ console.log(`value of dotReplaced is ${dotReplaced},`);
 // otherwise alert (username accept)
 
 var username = prompt("Enter username");
-if (username.includes("@") || username.includes("!") || username.includes(",") || username.includes(".")) {
-    prompt("Enter valid username")
-} else {
-     alert("Username Accept!")
-}
+// if (username.includes("@") || username.includes("!") || username.includes(",") || username.includes(".")) {
+//     prompt("Enter valid username")
+// } else {
+//      alert("Username Accept!")
+// }
 var isValid = true;
 for (let i = 0; i < username.length; i++) {
     if (username.charCodeAt(i) === 33 || username.charCodeAt(i) === 44 || username.charCodeAt(i) === 46 || username.charCodeAt(i) === 64) {
