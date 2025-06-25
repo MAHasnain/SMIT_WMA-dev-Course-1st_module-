@@ -1,0 +1,17 @@
+
+******24-6-25******
+
+Number method, parseInt, parseFloat
+
+toString method   (Number to String)
+
+toFixed method
+
+Date method  get and set methods
+
+
+
+functions
+
+
+

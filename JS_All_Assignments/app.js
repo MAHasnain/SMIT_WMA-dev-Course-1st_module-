@@ -56,3 +56,19 @@ var res = Math.floor((randomNum * 80) + 21);
 
 console.log("res " + res);
 
+
+
+const d = new Date();
+console.log(d);
+
+
+var currentYear = d.getFullYear()
+
+var seconds = d.getSeconds();
+var time = d.getTime();
+
+
+
+console.log(currentYear);
+console.log(seconds);
+console.log(time);
