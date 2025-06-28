@@ -42,20 +42,53 @@ console.log(largestNumber);
 
 // 4. Write a function that counts the number of vowels in a string.
 
+function countVowels(str) {
+    // for (let i = 0; i < str.length; i++) {
+    //     var vowelsCount = 0
+    //     if ("aeiou".includes(str)) {
+    //         vowelsCount ++;
+    //     }
+    // }
 
+    str = str.toLowerCase();
+    var vowelsCount = 0;
+    var vowels = ["a", "e", "i", "o", "u"];
+
+    for (let i = 0; i < str.length; i++) {
+        for (let j = 0; j < vowels.length; j++) {
+            if (str[i] === vowels[j]) {
+                vowelsCount++;
+            }
+        }
+    }
+    return vowelsCount;
+}
+
+var totalCount = countVowels("MAHasnain");
+console.log(`Total count of vowels is ${totalCount}`);
 
 // 5. Write a function that removes duplicates from an array.
 
 function removeDups(arr) {
-    var duplicate ; 
+    var tempArr = [];
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === duplicate) {
-            
+        if (tempArr.includes(arr[i]) === false) {
+            tempArr.push(arr[i])
         }
-        
     }
+    return tempArr;
 }
-var res = removeDups();
-console.log(res); 
+var res = removeDups([1, 3, 2, 6, 6, 3, 0, 5, 7, 0]);
+console.log(res);
 
 // 6. Write a function that capitalizes the first letter of each word in a sentence.
+
+function capitalize(str) {
+    var capitalized = str.charAt(0).toUpperCase();
+
+    capitalized = capitalized + str.slice(1)
+    return capitalized;
+}
+
+var capitalized = capitalize("hasnain");
+console.log(capitalized);
