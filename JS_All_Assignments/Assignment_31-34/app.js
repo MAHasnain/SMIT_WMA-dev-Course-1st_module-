@@ -1,6 +1,6 @@
 // 1. Write a program that displays current date and time in your browser.
 
-const d = new Date();
+var d = new Date();
 var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 // console.log(`${days[d.getDay()]} ${months[d.getMonth()]} ${d.getDate()} ${d.getDay()} ${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}:${d.getMilliseconds()} ${d.getTimezoneOffset()}`);
@@ -38,7 +38,7 @@ if (d.getDate() < "15") {
 // 6. Write a program that determines the minutes since midnight, Jan. 1, 1970 and assigns it to a variable that hasn't been declared beforehand. Use any variable you like to represent the Date object.
 
 var ms = Date.now();
-console.log(ms/60000);
+console.log(ms / 60000);
 
 // 7. Write a program that tests whether it's before noon and alert “Its AM” else “its PM”.
 
@@ -52,18 +52,55 @@ if (currentTime === "AM") {
 
 // 8. Write a program that creates a Date object for the last day of the last month of 2020 and assigns it to variable named laterDate.
 
+var laterDate = new Date(2020, 11, 31);
+laterDate.setFullYear(2020)
+laterDate.setMonth(11)
+laterDate.setDate(32)
 
+console.log(laterDate);
 
 // 9. Create a date object of the starting date of this Ramadan and alert the number of days past since 1st Ramadan? Note: 1st Ramadan was on June 18, 2015
 
+var curDate = new Date();
+var ramadanDate = new Date(2025, 2, 1);
+
+var resultInMs = curDate - ramadanDate
+var days = resultInMs / (1000 * 60 * 60 * 24)
+days = Math.round(days)
+console.log(days);
+
 // 10. Write a program that displays in your browser the seconds that elapsed between the reference date and the beginning of 2015.
+
+var referenceDate = new Date(2025, 5, 1);
+var beginDate = new Date(2025, 0, 1);
+
+console.log(beginDate);
+var resInMs = referenceDate - beginDate;
+var resInSeconds = resInMs / 1000
+console.log("Result in Seconds : " + resInSeconds);
 
 // 11. Create a Date object for the current date and time.
 // Extract the hours, reset the date object an hour ahead and finally display the date object in your browser.
 
+var d = new Date();
+console.log(`\n${d.toDateString()} ${d.toLocaleTimeString()} `);
+var curHrs = d.getHours();
+d.setHours(curHrs+1)
+console.log(`\n${d.toDateString()} ${d.toLocaleTimeString()} `);
+
+
 // 12. Write a program that creates a date object and show the date in an alert box that is reset to 100 years back?
 
+var resetYrs = curDate.getFullYear() - 100;
+console.log(resetYrs);
+curDate.setFullYear(resetYrs)
+console.log(curDate);
+
 // 13. Write a program to ask the user about his age. Calculate and show his birth year in your browser.
+
+var userAge = Number(prompt("Please enter your age"))
+var birthYear = d.getFullYear() - userAge;
+console.log(birthYear);
 
 // 14. Write a program to generate your K-Electric bill in your browser. All the amounts should be rounded off to 2 decimal places. Display the following fields:
 // a. Customer Name
