@@ -98,9 +98,9 @@ console.log(curDate);
 
 // 13. Write a program to ask the user about his age. Calculate and show his birth year in your browser.
 
-var userAge = Number(prompt("Please enter your age"))
-var birthYear = d.getFullYear() - userAge;
-console.log(birthYear);
+// var userAge = Number(prompt("Please enter your age"))
+// var birthYear = d.getFullYear() - userAge;
+// console.log(birthYear);
 
 // 14. Write a program to generate your K-Electric bill in your browser. All the amounts should be rounded off to 2 decimal places. Display the following fields:
 // a. Customer Name
@@ -111,3 +111,13 @@ console.log(birthYear);
 // f. Late Payment Surcharge
 // g. Gross Amount Payable (after Due Date)
 // Where,
+
+var customerName = "Hassnain";
+var CurrentMonth = d.getMonth();
+var Numberofunits = 410;
+var  Chargesperunit = 16;
+var lateAmount = 350;
+var netAmount = Numberofunits * Chargesperunit;
+var GroosAmount = netAmount + lateAmount;
+
+console.log(`customer Name ${customerName} \nCurrentMonth ${d.toLocaleString("default", {month: "short"})} `);
