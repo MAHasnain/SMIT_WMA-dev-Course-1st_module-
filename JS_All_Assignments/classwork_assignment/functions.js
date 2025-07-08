@@ -92,3 +92,21 @@ function capitalize(str) {
 
 var capitalized = capitalize("hasnain");
 console.log(capitalized);
+
+
+// function gettableMultiplication(num , tablessize10) {
+//     for(var i = 1; i <= num, tablessize10;i++){
+//     var table = `${num} * ${tablessize10} = ${}`
+        
+//     }
+// }
+
+// var sentence = prompt("Enter a sentence");
+// var capitalizestring = "";
+// function capitalizeWords(sentence) {    
+//     for(var i = 1 <= sentence.length; i++){
+//         if (sentence[i]== capitalizestring) {
+//             capitalizestring += 
+//         }
+//     }
+// }
